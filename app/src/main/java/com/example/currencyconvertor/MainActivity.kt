@@ -134,22 +134,22 @@ fun CC(){
                     DropdownMenuItem(text = { Text(text = "Dollar", style = customstyle)}, onClick = { outputunit = "Dollar"
                         oconversionfactor = 83.46
                         convert()
-                        iexpanded = false
+                        oexpanded = false
                     })
                     DropdownMenuItem(text = { Text(text = "Rupees", style = customstyle)}, onClick = { outputunit = "Rupees"
                         oconversionfactor = 1.0
                         convert()
-                        iexpanded = false
+                        oexpanded = false
                     })
                     DropdownMenuItem(text = { Text(text = "Euro", style = customstyle)}, onClick = { outputunit = "Euro"
                         oconversionfactor = 90.33
                         convert()
-                        iexpanded = false
+                        oexpanded = false
                     })
                     DropdownMenuItem(text = { Text(text = "Pound", style = customstyle)}, onClick = { outputunit = "Pound"
                         oconversionfactor = 106.90
                         convert()
-                        iexpanded = false
+                        oexpanded = false
                     })
                 }
 
